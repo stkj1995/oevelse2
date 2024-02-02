@@ -1,3 +1,5 @@
+//øvelse1
+
 document.addEventListener("DOMContentLoaded", function () {
   // Opret et array med navnene på dine yndlings-tracks
   var tracks = ["Two of Us", "Dig a Pony", "Across the Universe", "I Me Mine", "Dig it", "Let it be", "Maggie Mae", "I've got a feeling", "One after 909", "Get Back"];
@@ -12,3 +14,12 @@ document.addEventListener("DOMContentLoaded", function () {
     playliste.appendChild(listItem);
   });
 });
+
+//øvelse2
+
+const alleBokse = document.querySelectorAll(".boks");
+alleBokse.forEach((boks) => boks.addEventListener("click", aktiver));
+
+function aktiver() {
+  this.classList.toggle("aktiv");
+}

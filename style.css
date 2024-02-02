@@ -11,3 +11,15 @@ ul {
   list-style-type: none;
   padding: 0;
 }
+
+/*øvelse 2*/
+.boks {
+  width: 10vw;
+  height: 10vw;
+  margin: 1em;
+  background-color: orange;
+}
+
+.aktiv {
+  background-color: blue;
+}
