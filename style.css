@@ -23,3 +23,33 @@ ul {
 .aktiv {
   background-color: blue;
 }
+
+/*superhelte øvelse*/
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#superhero-info {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#superhero-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#secret-identity {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#superpowers,
+#enemies {
+  margin-bottom: 10px;
+}
